@@ -1,0 +1,5 @@
+.vscode/
+input/
+*.bin
+*.csv
+*.jpg
