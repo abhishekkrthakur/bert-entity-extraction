@@ -24,7 +24,7 @@ class EntityDataset:
 
         for i, s in enumerate(text):
             inputs = config.TOKENIZER.encode(
-                s,
+                str(s),
                 add_special_tokens=False
             )
             # abhishek: ab ##hi ##sh ##ek
